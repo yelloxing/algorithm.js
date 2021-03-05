@@ -2,14 +2,14 @@
  * 🔪 algorithm.js - 🔪 一些前端常用的算法实现合集。
  * git+https://github.com/hai2007/algorithm.js.git
  *
- * author hai2007 < https://hai2007.gitee.io/sweethome >
+ * author 你好2007 < https://hai2007.gitee.io/sweethome >
  *
- * version 0.5.0
+ * version 0.5.1
  *
  * Copyright (c) 2020-present hai2007 走一步，再走一步。
  * Released under the MIT license
  *
- * Date:Sun Dec 06 2020 03:24:38 GMT+0800 (GMT+08:00)
+ * Date:Sat Jan 16 2021 11:56:30 GMT+0800 (GMT+08:00)
  */
 (function () {
     'use strict';
@@ -458,7 +458,7 @@
                 var isAttrString = false, attrLeftValue = null, attrLeftLen = null;
 
                 // 如果在包裹中或者没有遇到‘>’说明没有结束
-                while (isAttrString || currentChar != '>' && i < template.length) {
+                while ((isAttrString || currentChar != '>') && i < template.length) {
 
                     tag += next();
 

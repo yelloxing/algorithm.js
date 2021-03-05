@@ -3,3 +3,6 @@
 .project
 node_modules
 .vscode
+.editorconfig
+test
+.github

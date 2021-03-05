@@ -1,11 +1,14 @@
 # 🔪 algorithm.js - 一些前端常用的算法实现合集
 
 <p>
-  <a href="https://yelloxing.gitee.io/npm-downloads?interval=7&packages=@hai2007/algorithm"><img src="https://img.shields.io/npm/dm/@hai2007/algorithm.svg" alt="downloads"></a>
+  <a href="https://hai2007.gitee.io/npm-downloads?interval=7&packages=@hai2007/algorithm"><img src="https://img.shields.io/npm/dm/@hai2007/algorithm.svg" alt="downloads"></a>
   <a href="https://packagephobia.now.sh/result?p=@hai2007/algorithm"><img src="https://packagephobia.now.sh/badge?p=@hai2007/algorithm" alt="install size"></a>
   <a href="https://www.jsdelivr.com/package/npm/@hai2007/algorithm"><img src="https://data.jsdelivr.com/v1/package/npm/@hai2007/algorithm/badge" alt="CDN"></a>
   <a href="https://www.npmjs.com/package/@hai2007/algorithm"><img src="https://img.shields.io/npm/v/@hai2007/algorithm.svg" alt="Version"></a>
   <a href="https://github.com/hai2007/algorithm.js/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/@hai2007/algorithm.svg" alt="License"></a>
+  <a href="https://github.com/hai2007/algorithm.js">
+        <img alt="GitHub repo stars" src="https://img.shields.io/github/stars/hai2007/algorithm.js?style=social">
+    </a>
 </p>
 
 ## Issues
@@ -72,7 +75,7 @@ const algorithm = require('@hai2007/algorithm');
 
 - 动态规划
 
-和分治法基本思想有共同的地方，不同的是子问题往往不是独立的，有事母问题要借助子问题的解来判断，因此把已经计算好的问题记录在表格中，后续如果需要查询一下，可以避免重复计算，这是动态规划的基本思想。
+和分治法基本思想有共同的地方，不同的是子问题往往不是独立的，有时母问题要借助子问题的解来判断，因此把已经计算好的问题记录在表格中，后续如果需要查询一下，可以避免重复计算，这是动态规划的基本思想。
 
 不过动态规划具体实现起来多种多样，不过都具有相同的填表格式，通常按照下面步骤设计算法：
 
@@ -116,13 +119,8 @@ const algorithm = require('@hai2007/algorithm');
 
 对比回溯法就很容易思考，用广度优先的办法，不断扩大当前节点的孩子为当前节点，主要是求解一个最优解，算法相比回溯法要简单些。
 
-## 联系我们
-
-- QQ: 2501482523
-- Email: 2501482523@qq.com
-
 开源协议
 ---------------------------------------
 [MIT](https://github.com/hai2007/algorithm.js/blob/master/LICENSE)
 
-Copyright (c) 2020-present hai2007 走一步，再走一步。
+Copyright (c) 2020-present [hai2007](https://hai2007.gitee.io/sweethome/) 走一步，再走一步。

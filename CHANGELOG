@@ -36,3 +36,7 @@ v0.5.0:
     date:2020-12-06
     changes:
       -  为了更好的服务于实际需求，源码采用ES5-语法和接口
+v0.5.1:
+    date:2021-01-16
+    changes:
+      -  增加 “xhtmlToJson.js” 对错误的html的兼容能力

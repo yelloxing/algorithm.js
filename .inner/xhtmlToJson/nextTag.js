@@ -103,7 +103,7 @@ export default function (template) {
             var isAttrString = false, attrLeftValue = null, attrLeftLen = null;
 
             // 如果在包裹中或者没有遇到‘>’说明没有结束
-            while (isAttrString || currentChar != '>' && i < template.length) {
+            while ((isAttrString || currentChar != '>') && i < template.length) {
 
                 tag += next();
 

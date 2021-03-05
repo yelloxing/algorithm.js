@@ -1,11 +1,11 @@
 {
   "name": "@hai2007/algorithm",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "🔪 一些前端常用的算法实现合集。",
   "main": "./dist/algorithm.min.js",
   "scripts": {
     "start": "npm install && npm run build",
-    "build": "npm run rollup && npm run uglifyjs && cuf --config ./cuf.config.js",
+    "build": "npm run rollup && npm run uglifyjs && hai2007_nodejs --config ./hai2007_nodejs.config.js",
     "rollup": "rollup --config rollup.config.js",
     "uglifyjs": "uglifyjs ./dist/algorithm.js -m -o ./dist/algorithm.min.js"
   },
@@ -17,20 +17,20 @@
     "hai2007",
     "algorithm"
   ],
-  "author": "hai2007",
+  "author": "你好2007",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hai2007/algorithm.js/issues"
   },
   "homepage": "https://github.com/hai2007/algorithm.js#readme",
   "devDependencies": {
-    "cuf": "^1.2.0",
+    "@hai2007/nodejs": "^0.1.0",
     "rollup": "^1.17.0",
     "rollup-plugin-commonjs": "^10.0.1",
     "rollup-plugin-node-resolve": "^5.2.0",
     "uglify-js": "^3.10.2"
   },
   "dependencies": {
-    "@hai2007/tool": "^0.4.0"
+    "@hai2007/tool": "^0.6.0"
   }
 }

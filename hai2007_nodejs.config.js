@@ -10,7 +10,7 @@ module.exports = {
     pkg: '.',
 
     // 定义任务
-    task(cuf, pkg, rootPath) {
+    task(hai2007_nodejs, pkg, rootPath) {
 
         [
             'algorithm.js',
